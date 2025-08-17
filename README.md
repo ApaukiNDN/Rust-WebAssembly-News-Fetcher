@@ -42,7 +42,9 @@ python3 -m http.server
 
 
 Open the application: Open your web browser and navigate to http://localhost:8000.
+
 Acknowledgements
 This project was developed by Jeremy Royer in collaboration with Google's Gemini. The core logic, architecture, and debugging were a joint effort, showcasing a modern approach to AI-assisted development.
+
 Project Lead & Developer: Jeremy Royer
 AI Assistant & Pairing Partner: Google's Gemini
