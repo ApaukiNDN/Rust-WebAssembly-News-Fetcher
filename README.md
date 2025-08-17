@@ -45,9 +45,11 @@ cd news-webapp
 
 
 Add Your API Key: Open the index.html file and replace the placeholder "YOUR_API_KEY_HERE" on line 56 with your actual Benzinga API key.
-Build the WebAssembly package: This command compiles the Rust code and generates the necessary JavaScript bindings in a pkg directory.
-wasm-pack build --target web
 
+Build the WebAssembly package: 
+
+This command compiles the Rust code and generates the necessary JavaScript bindings in a pkg directory.
+wasm-pack build --target web
 
 Start a local web server: The project must be served over http://. 
 
