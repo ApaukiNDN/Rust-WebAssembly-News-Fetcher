@@ -49,7 +49,9 @@ Build the WebAssembly package: This command compiles the Rust code and generates
 wasm-pack build --target web
 
 
-Start a local web server: The project must be served over http://. A simple Python server is perfect for this.
+Start a local web server: The project must be served over http://. 
+
+A simple Python server is perfect for this.
 python3 -m http.server
 
 
