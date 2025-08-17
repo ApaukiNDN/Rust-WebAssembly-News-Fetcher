@@ -1,21 +1,33 @@
 Rust + WebAssembly News Fetcher
+
 A high-performance, browser-based news client that fetches and displays the latest headlines on technology and cryptocurrency. This application uses a Rust core, compiled to WebAssembly, to interact with the Benzinga API, demonstrating a modern approach to building fast and efficient web applications.
+
 Features
 Dynamic Topic Search: Enter any topic channel supported by the Benzinga API (e.g., CRYPTO, TECH, MARKETS) to get the latest news.
 Real-Time Data: Fetches the 20 most recent articles directly from the Benzinga API.
 Clean & Responsive UI: A modern, easy-to-read interface built with Tailwind CSS that works on both desktop and mobile.
 High-Performance Core: The entire logic for making and parsing the API request is handled by a Rust module running at near-native speed via WebAssembly.
+
 Tech Stack
 This project showcases a powerful combination of systems programming and modern web technologies.
+
 Core Logic: Rust
+
 Browser Target: WebAssembly (Wasm)
+
 API Interaction: reqwest for asynchronous HTTP requests.
+
 Data Handling: serde and serde_json for robust JSON parsing.
+
 Rust-to-Wasm Bridge: wasm-pack and wasm-bindgen.
+
 Frontend: HTML5, JavaScript
+
 Styling: Tailwind CSS
+
 Getting Started
 To run this project on your local machine, you will need to have the Rust toolchain, wasm-pack, and a valid Benzinga API key.
+
 Prerequisites
 Install Rust:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
